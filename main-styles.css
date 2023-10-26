@@ -1,13 +1,15 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     /* background: red; */
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.main-navigation{
+
+.main-navigation {
     background-color: #1C5DC5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -17,32 +19,38 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.logo-group{
+
+.logo-group {
     width: 30%;
     display: flex;
     align-items: center;
 }
-.logo-group .fa-bars{
+
+.logo-group .fa-bars {
     font-size: 30px;
     color: white;
 }
-.nav-link-group{
+
+.nav-link-group {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: right;
 }
-.nav-link-group ul{
+
+.nav-link-group ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.nav-link-group ul li{
+
+.nav-link-group ul li {
     display: inline;
     color: white;
     padding-left: 40px;
 }
-.subscribe{
+
+.subscribe {
     background-color: red;
     border: none;
     padding: 8px 16px 8px 16px;
@@ -50,15 +58,17 @@ body{
     font-size: 20px;
     border-radius: 20px;
 }
-.banner-section{
+
+.banner-section {
     width: 100%;
     height: 500px;
-    background-image: url(./banner-image-cropped.jpeg);
+    background-image: url(./images/banner-image-cropped.jpeg);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.banner-section p{
+
+.banner-section p {
     padding: 0;
     margin: 0;
     color: white;
@@ -68,7 +78,7 @@ body{
     padding-bottom: 32px;
 }
 
-.banner-section button{
+.banner-section button {
     background: white;
     border: none;
     padding: 12px 16px 12px 16px;
@@ -76,4 +86,55 @@ body{
     color: #1d5dc5;
     min-width: 250px;
     margin: 0px 8px
+}
+
+.inrow-who-we-are {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 32px 0px 32px 16px;
+}
+
+.whoweare-left-block,
+.whoweare-right-block {
+    width: 50%;
+}
+.whoweare-left-block{
+    padding-left: 100px;
+}
+.whoweare-left-block h3 {
+    margin: 0;
+    color: #1C5DC5;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.whoweare-left-block p {
+    color: #404040;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.whoweare-left-block button {
+    border-radius: 100px;
+    background: var(--Primary-blue, #1C5DC5);
+    color: white;
+    padding: 8px 32px;
+    border: none;
+    font-size: 18px;
+}
+
+.whoweare-right-block {
+    text-align: right;
+}
+
+.whoweare-right-block img {
+    max-width: 500px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
