@@ -9,6 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.layout-container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: green; */
+}
+
 .main-navigation {
     background-color: #1C5DC5;
     padding-top: 10px;
@@ -99,9 +107,11 @@ body {
 .whoweare-right-block {
     width: 50%;
 }
-.whoweare-left-block{
+
+.whoweare-left-block {
     padding-left: 100px;
 }
+
 .whoweare-left-block h3 {
     margin: 0;
     color: #1C5DC5;
@@ -137,4 +147,67 @@ body {
     max-width: 500px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+}
+
+.signup-newsletter {
+    background: #1C5DC5;
+    /* padding: top right bottom left; */
+    padding: 50px 0 50px 0;
+}
+
+.signup-newsletter .col-left {
+    width: 30%;
+}
+
+.signup-newsletter .col-right {
+    width: 70%;
+}
+
+.signup-newsletter h5 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.signup-newsletter p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+.signup-newsletter .col-right{
+    align-items: center;
+    justify-content: center;
+}
+.signup-newsletter .form-group input{
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    width: 100%;
+}
+.signup-newsletter .form-group button{
+    background: #26A39E;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: -66px;
+    width: 130px;
+}
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+
+.d-flex {
+    display: flex;
 }
